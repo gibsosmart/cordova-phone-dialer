@@ -10,7 +10,7 @@
 
 
     <js-module src="www/PhoneDialer.js" name="PhoneDialer">
-        <clobbers target="window.open" />
+        <clobbers target="window.plugins.phoneDialer.dial" />
     </js-module>
         
     <!-- ios -->
